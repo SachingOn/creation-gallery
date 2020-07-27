@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/whitecolor"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:src="@drawable/ceation"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:src="@drawable/tgtjvu7p"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ds"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/blackcolor"
+        android:text="             Life is like dancing. If we have a big floor many people will dance. Some will get angry when the rhythm changes. But life is changing all the time."/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/ss"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We can learn a lot from a box of Crayons. Some are sharp,some are dull, some are bright and some are dark but they all have to learn to live in the same box"
+        android:textColor="@color/blackcolor"
+        android:textSize="15dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/fvd"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There is an endearing tenderness in the love of mother to a son that transcends all other affection of heart"
+        android:layout_marginTop="30dp"
+        android:textSize="15dp"
+        android:textColor="@color/blackcolor"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/sd"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We can learn a lot from a box of Crayons. Some are sharp,some are dull, some are bright and some are dark but they all have to learn to live in the same box"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/blackcolor"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ssccss"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yakshagana is the proud art of Karnataka"
+        android:textSize="15dp"
+        android:textColor="@color/blackcolor"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/saaa"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It was my first attempt to reach artistic approch without any outline"
+        android:textColor="@color/blackcolor"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/kkj"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="15dp"
+        android:textColor="@color/blackcolor"
+        android:text="Here is the bird common kingfisher, which is most likely found in western ghasts. When diving for a meal, the common kingfisher often completely submerges in the water, with its wings folded backward to from a V shape. in the above image this fact has been illustrated using the reference fron the google image"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/fe"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blackcolor"
+        android:layout_marginTop="30dp"
+        android:textSize="15dp"
+        android:text="Sourav Joshi"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="300dp"
+        android:background="@drawable/saawd"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/blackcolor"
+        android:layout_marginTop="30dp"
+        android:text="There is nothing more rare than a woman being unapologetically herself, comfortable in her perfect imperfection"
+        android:layout_marginBottom="30dp"/>
+
+
+</LinearLayout>
+
+
+</ScrollView>
