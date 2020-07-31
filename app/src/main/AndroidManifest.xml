@@ -17,10 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".loginActivity"/>
-        <activity android:name=".home"/>
-        <activity android:name=".video"/>
-        <activity android:name=".recent"/>
-        <activity android:name=".social"/>
+        <activity android:name=".homepage"/>
     </application>
 
 </manifest>

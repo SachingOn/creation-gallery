@@ -8,14 +8,13 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="90dp"
         android:gravity="center"
         android:elevation="0dp"
         android:id="@+id/appbarid">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
             android:src="@drawable/ceation">
         </ImageView>
     </com.google.android.material.appbar.AppBarLayout>
@@ -26,8 +25,8 @@
         app:tabMode="fixed"
         android:id="@+id/tablayout"
         app:tabTextColor="@color/whitecolor"
-        app:tabIndicatorColor="@color/matrialgreen"
-        android:background="@color/matrialgreen"/>
+        app:tabIndicatorColor="@color/whitecolor"
+        android:background="@color/colorAccent"/>
    <androidx.viewpager.widget.ViewPager
        android:layout_width="match_parent"
        android:layout_height="match_parent"

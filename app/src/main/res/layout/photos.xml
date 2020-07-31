@@ -9,16 +9,7 @@
     android:background="@color/whitecolor"
     android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="fitStart"
-        android:src="@drawable/ceation"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="fitStart"
-        android:src="@drawable/tgtjvu7p"/>
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="400dp"

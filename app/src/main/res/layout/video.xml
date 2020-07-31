@@ -5,96 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="home"
     android:orientation="vertical"
-    android:padding="10dp"
-    android:background="@drawable/cdcdcdcdcdcd">
-    <LinearLayout
-        android:orientation="horizontal"
-        android:clipToPadding="false"
-        android:gravity="center"
+    android:padding="8dp">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
 
     </LinearLayout>
-    <ImageView
-        android:layout_width="380dp"
-        android:layout_height="80dp"
-        android:background="@drawable/ceation">
-
-    </ImageView>
-    <Button
-        android:id="@+id/id_portrait"
-        android:layout_width="140dp"
-        android:layout_height="45dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/joinbutton"
-        android:text="Portrait"
-        android:textAllCaps="false"
-        android:textColor="@color/whitecolor" />
-
-
-    <Button
-        android:id="@+id/id_pencilsketch"
-        android:layout_width="140dp"
-        android:layout_height="45dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/joinbutton"
-        android:text="Pencil Sketch"
-        android:textAllCaps="false"
-        android:textColor="@color/whitecolor" />
-
-    <Button
-        android:id="@+id/id_watercolour"
-        android:layout_width="140dp"
-        android:layout_height="45dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/joinbutton"
-        android:text="Water Colour"
-        android:textAllCaps="false"
-        android:textColor="@color/whitecolor" />
-
-    <Button
-        android:id="@+id/id_oilpastel"
-        android:layout_width="140dp"
-        android:layout_height="45dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/joinbutton"
-        android:text="Oil Pastel"
-        android:textAllCaps="false"
-        android:textColor="@color/whitecolor" />
-
-
-    <Button
-        android:id="@+id/id_mandala"
-        android:layout_width="140dp"
-        android:layout_height="45dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/joinbutton"
-        android:text="Mandala"
-        android:textAllCaps="false"
-        android:textColor="@color/whitecolor" />
-    <Button
-        android:id="@+id/id_tutorial"
-        android:layout_width="140dp"
-        android:layout_height="45dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/joinbutton"
-        android:text="Tutorial"
-        android:textAllCaps="false"
-        android:textColor="@color/whitecolor" />
-
-
-
-
-
-
-
-
-</LinearLayout>
