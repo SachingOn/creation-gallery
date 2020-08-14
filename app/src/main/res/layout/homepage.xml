@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:gravity="center"
-        android:elevation="0dp"
         android:id="@+id/appbarid">
         <ImageView
             android:layout_width="wrap_content"
@@ -26,7 +25,7 @@
         android:id="@+id/tablayout"
         app:tabTextColor="@color/whitecolor"
         app:tabIndicatorColor="@color/whitecolor"
-        android:background="@color/colorAccent"/>
+        android:background="@color/colorPrimaryDark"/>
    <androidx.viewpager.widget.ViewPager
        android:layout_width="match_parent"
        android:layout_height="match_parent"

@@ -11,6 +11,7 @@ import android.widget.EditText;
 
 
 public class signup extends AppCompatActivity {
+    private  SharedPreferenceConfig sharedPreferenceConfig;
 
 
     Button btn;
@@ -24,6 +25,7 @@ public class signup extends AppCompatActivity {
 
         btn = findViewById(R.id.joinus);
         name=findViewById(R.id.yourname);
+        sharedPreferenceConfig= new SharedPreferenceConfig();
         btn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Intent intent=new Intent(signup.this,loginActivity.class);

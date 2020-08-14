@@ -26,20 +26,32 @@ public class video extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.video, container, false);
-        return view;
-        firstbook = new ArrayList<>();
-        firstbook.add(new book("Portrait", "Categorie Book", "Description Book", R.drawable.qw));
-        firstbook.add(new book("Pencil Sketch", "Categorie Book", "Description Book", R.drawable.qw));
-        firstbook.add(new book("Water Colour", "Categorie Book", "Description Book", R.drawable.qw));
-        firstbook.add(new book("Oil Pastel", "Categorie Book", "Description Book", R.drawable.qw));
-        firstbook.add(new book("Mandala", "Categorie Book", "Description Book", R.drawable.qw));
-        firstbook.add(new book("Tutorial", "Categorie Book", "Description Book", R.drawable.qw));
-
-        RecyclerView myrv = (RecyclerView) findViewById(R.id.recyclerview);
-        RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(this, firstbook);
-        myrv.setLayoutManager(new GridLayoutManager(this, 2));
+        RecyclerView myrv = (RecyclerView) view.findViewById(R.id.recyclerview);
+        RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(getContext(), firstbook);
+        myrv.setLayoutManager(new GridLayoutManager(getContext(), 1));
         myrv.setAdapter(myAdapter);
+        return view;
+
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+
+    firstbook = new ArrayList<>();
+        firstbook.add(new book("Tutorial", "Categorie Book", "Description Book", R.drawable.ik));
+        firstbook.add(new book("Portrait", "Categorie Book", "Description Book", R.drawable.qw));
+        firstbook.add(new book("Pencil Sketch", "Categorie Book", "Description Book", R.drawable.jhjhj));
+        firstbook.add(new book("Water Colour", "Categorie Book", "Description Book", R.drawable.vc));
+        firstbook.add(new book("Oil Pastel", "Categorie Book", "Description Book", R.drawable.jhuhgg));
+        firstbook.add(new book("Mandala", "Categorie Book", "Description Book", R.drawable.c));
+
+
 
 
     }
+
+
+
 }
